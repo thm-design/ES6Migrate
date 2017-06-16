@@ -1,0 +1,6 @@
+__mocks__
+.eslintrc
+.gitlab-ci.yml
+coverage
+*.test.js
+src/
