@@ -1,13 +1,13 @@
 {
-  "name": "marionette-migrate",
-  "version": "1.0.0",
-  "description": "migration tool for es5 marionette apps",
+  "name": "es6migrate",
+  "version": "1.0.1",
+  "description": "CLI tool for auto migrating ES5 codebases to ES6",
   "main": "index.js",
   "scripts": {
-    "marionette-migrate": "node index.js"
+    "es6migrate": "node index.js"
   },
   "bin": {
-    "marionette-migrate": "index.js"
+    "es6migrate": "./index.js"
   },
   "keywords": [
     "marionette",
@@ -24,22 +24,16 @@
     "camelcase": "^4.1.0",
     "chalk": "^1.1.3",
     "clear": "^0.0.1",
-    "clui": "^0.3.5",
     "commander": "^2.9.0",
     "core-js": "^2.4.1",
     "eslint": "^4.0.0",
     "figlet": "^1.2.0",
-    "github": "^9.2.0",
     "glob": "^7.1.2",
     "global": "^4.3.2",
     "inquirer": "^3.1.0",
     "jscodeshift": "^0.3.31",
-    "lodash": "^4.17.4",
     "moment": "^2.18.1",
     "ora": "^1.3.0",
-    "preferences": "^0.2.1",
-    "prettier": "^1.4.4",
-    "simple-git": "^1.73.0",
-    "touch": "^1.0.0"
+    "prettier": "^1.4.4"
   }
 }
