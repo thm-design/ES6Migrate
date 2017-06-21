@@ -10,10 +10,10 @@
     "es6migrate": "./index.js"
   },
   "keywords": [
-    "marionette",
-    "mingration",
+    "migration",
     "es5",
-    "es6"
+    "es6",
+    "codemods"
   ],
   "author": "tony h. meyer",
   "license": "ISC",
