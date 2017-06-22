@@ -12,7 +12,7 @@
     "es6migrate": "node index.js"
   },
   "bin": {
-    "es6migrate": "./index.js"
+    "es6migrate": "bin/index.js"
   },
   "keywords": [
     "migration",
