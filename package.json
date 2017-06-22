@@ -1,9 +1,9 @@
 {
   "name": "es6migrate",
   "version": "1.2.0",
-  "description": "CLI tool for auto migrating ES5 codebases to ES6",
+  "description": "CLI tool for migrating ES5 codebases to ES6",
   "main": "index.js",
-  "author": "tony h. meyer",
+  "author": "Tony H Meyer <tonymeyer.dev@gmail.com>",
   "repository": {
     "type": "git",
     "url": "https://github.com/thm-design/ES6Migrate.git"
