@@ -31,4 +31,4 @@ CLI tool for migrating ES5 codebases to ES6 (node.js  v7+ required)
 
 
 ### TODO:
-* ###### Make prettier & eslint configs user input based
+* Make prettier & eslint configs user input based
