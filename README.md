@@ -28,7 +28,7 @@ CLI tool for migrating ES5 codebases to ES6 (node.js  v7+ required)
 ###### Navigate to the root of the folder that you want to migrate and run:
 `npm i es6migrate && es6migrate`
 ###### Follow instructions.
-
+###### => jscodeshift, prettier and eslint may need to be installed globally with -g flag, will fix this soon.
 
 ### TODO:
 * Make prettier & eslint configs user input based
