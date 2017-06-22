@@ -8,10 +8,10 @@ CLI tool for migrating ES5 codebases to ES6 (node.js  v7+ required)
 ###### Uses codemods to run migration tasks.
 ###### Optionally runs Eslint auto-fixing and prettier formatting, based on currently hardcoded configs (1).
 
-* ###### [5to6-codemod](https://github.com/5to6/5to6-codemod)
-* ###### [js-codemod](https://github.com/cpojer/js-codemod)
-* ###### [prettier](https://github.com/prettier/prettier)
-* ###### [eslint](https://github.com/eslint/eslint)
+* [5to6-codemod](https://github.com/5to6/5to6-codemod)
+* [js-codemod](https://github.com/cpojer/js-codemod)
+* [prettier](https://github.com/prettier/prettier)
+* [eslint](https://github.com/eslint/eslint)
 
 # Migation tasks:
 * (amd) Transform AMD style modules to ES6 import/export.
@@ -25,7 +25,10 @@ CLI tool for migrating ES5 codebases to ES6 (node.js  v7+ required)
 
 
 ## Usage:
-###### TEMP: (=> jscodeshift, prettier and eslint may need to be installed globally with -g flag, will fix this soon.)
+TEMPORARY: (=> jscodeshift, prettier and eslint may need to be installed globally with -g flag, will fix this soon.)
+
+`npm i -g jscodeshift prettier eslint`
+
 ###### Navigate to the root of the folder that you want to migrate and run:
 `npm i es6migrate && es6migrate`
 ###### Follow instructions.
