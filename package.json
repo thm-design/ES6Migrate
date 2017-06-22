@@ -1,6 +1,6 @@
 {
   "name": "es6migrate",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "CLI tool for migrating ES5 codebases to ES6",
   "main": "index.js",
   "author": "Tony H Meyer <tonymeyer.dev@gmail.com>",
