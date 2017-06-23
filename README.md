@@ -7,10 +7,9 @@ CLI tool for migrating ES5 codebases to ES6 (node.js  v7+ required)
 ###### Optional camel casing of file names, ex: `Camel-case` or `CamelCase` to `camelCase`.
 ###### Uses jscodeshift codemods to run migration tasks.
 
+* [facebook/jscodeshift](https://github.com/facebook/jscodeshift)
 * [5to6-codemod](https://github.com/5to6/5to6-codemod)
 * [js-codemod](https://github.com/cpojer/js-codemod)
-* [prettier](https://github.com/prettier/prettier)
-* [eslint](https://github.com/eslint/eslint)
 
 # Migration tasks:
 * (amd) Transform AMD style modules to ES6 import/export.
