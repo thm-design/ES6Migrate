@@ -13,7 +13,7 @@ CLI tool for migrating ES5 codebases to ES6 (node.js  v7+ required)
 * [prettier](https://github.com/prettier/prettier)
 * [eslint](https://github.com/eslint/eslint)
 
-# Migation tasks:
+# Migration tasks:
 * (amd) Transform AMD style modules to ES6 import/export.
 * (cjs) Transform CommonJS style require() calls to ES6 import statements.
 * (noStrict) Remove "use strict" statements.
