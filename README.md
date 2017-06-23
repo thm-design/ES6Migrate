@@ -5,8 +5,7 @@ CLI tool for migrating ES5 codebases to ES6 (node.js  v7+ required)
 
 ###### Optional file extension renaming, ex: `.js` to `.es6.js`.
 ###### Optional camel casing of file names, ex: `Camel-case` or `CamelCase` to `camelCase`.
-###### Uses codemods to run migration tasks.
-###### Optionally runs Eslint auto-fixing and prettier formatting, based on currently hardcoded configs (1).
+###### Uses jscodeshift codemods to run migration tasks.
 
 * [5to6-codemod](https://github.com/5to6/5to6-codemod)
 * [js-codemod](https://github.com/cpojer/js-codemod)
@@ -20,18 +19,19 @@ CLI tool for migrating ES5 codebases to ES6 (node.js  v7+ required)
 * (noVar) Replace all var calls to use let or const.
 * (templateLiteral) Replaces string concatenation with template literals.
 * (arrowFunction) Transforms callbacks only when it can guarantee not breaking this context in the function
-* (eslint) Run eslint auto fix.
-* (prettier) Run prettier.
 
 
 ## Usage:
-TEMPORARY: (=> jscodeshift, prettier and eslint may need to be installed globally with -g flag, will fix this soon.)
+TEMPORARY: (=> jscodeshift needs to be installed globally with -g flag)
 
-`npm i -g jscodeshift prettier eslint`
+###### Install jscodeshift globally:
 
-###### Navigate to the root of the folder that you want to migrate and run:
-`npm i es6migrate && es6migrate`
-###### Follow instructions.
+`npm i -g jscodeshift`
 
-### TODO:
-* Make prettier & eslint configs user input based
+###### Navigate to the root of the folder that you want to migrate install es6migrate locally:
+
+`npm i es6migrate`
+
+###### Run es6migrate and follow instructions.
+
+`es6migrate`

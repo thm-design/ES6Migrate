@@ -11,7 +11,7 @@ const migrate = require('./lib/migrate');
 clear();
 console.log(chalk.yellow(figlet.textSync('Migrate ES5 -> ES6 ', {horizontalLayout: 'controlled smushing'})));
 
-const migrationOptions = ['amd', 'cjs', 'noStrict', 'noVar', 'templateLiteral', 'prettier', 'eslint'];
+const migrationOptions = ['amd', 'cjs', 'noStrict', 'noVar', 'templateLiteral'];
 
 const getMigrationOptionsFromAnswers = (answers = []) => {
     const answersArray = answers.migrate;
